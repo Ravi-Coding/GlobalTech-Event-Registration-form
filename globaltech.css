@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    color: #0711C4;
+    font-weight: bold;
+    font-family: "Poppins";
+    font-size: 28px;
+    bottom: 14px;
+}
+
+.bg-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.heading {
+    font-family: "Roboto";
+    text-align: center;
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    border-bottom: 2px solid silver;
+    margin-bottom: 30px;
+}
+
+.input-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.button {
+    background-image: linear-gradient(to right, #169E08, #23D511, #0B6202);
+    width: 160px;
+    height: 65px;
+    color: #ffffff;
+    border-width: 0px;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+.label {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 30px;
+
+}
+
+footer {
+    color: #F70420;
+    font-weight: bold;
+    font-family: "Poppins";
+    font-size: 28px;
+    bottom: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #ACAF50;
+    color: #ccc;
+    padding: 12px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
